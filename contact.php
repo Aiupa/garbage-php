@@ -25,9 +25,9 @@ $open = in_slots($hour, $slots);
     <div class="col-md-4">
         <h2>Horaires d'ouvertures</h2>
 
-        <?php if ($open): ?>
+        <?php if ($open) : ?>
             <div class="alert alert-success">Le magasin sera ouvert</div>
-        <?php else: ?>
+        <?php else : ?>
             <div class="alert alert-danger">Le magasin sera fermé</div>
         <?php endif; ?>
 

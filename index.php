@@ -1,7 +1,7 @@
-<?php 
-    $title = "Page d'accueil";
-    
-    require 'elements/header.php'; 
+<?php
+session_start();
+$title = "Page d'accueil";
+require 'elements/header.php';
 ?>
 
 
